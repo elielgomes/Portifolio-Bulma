@@ -1,0 +1,99 @@
+.fa-solid , .fa-house {
+  margin-right: 5px;
+}
+
+.item-home{
+  margin-left: 50px;
+}
+
+.navbar-end {
+  margin-right: 20px;
+}
+
+.navbar{
+  box-shadow: 2px 2px 13px #2222226a;
+}
+
+.hero-body{
+  display: flex;
+  margin: auto;
+}
+
+.hero-background-color {
+  background-color: #a28a7d;
+}
+
+#container-fotoperfil{
+  display: flex;
+  background-color: white;
+  width: 280px;
+  height: 280px ;
+  border-radius:50% ;
+  background-image: url('imagens/foto-perfil.jpg');
+  background-size: cover;
+}
+
+.container-coluna-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container-titulo{
+text-align: center;
+}
+
+#coluna-1{
+  margin-top: 50px;
+}
+
+#coluna-2{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  background-color:#4A3E38;
+  margin-top: 20px;
+
+}
+
+#message-header{
+  box-shadow: 3px 3px 8px #222222c9;
+}
+  
+.message-section-principal{
+  margin: 50px;
+}
+
+.span-container {
+  margin: 15px 10px 0px 10px;
+}
+
+#section-sobre-mim{
+  background-color: #7D695F;
+}
+
+.container-article-sobre-mim{
+  max-width: 920px;
+}
+
+@media (max-width: 375px){
+  .item-home {
+    margin-left: 0;
+  }
+
+  }
+
+@media (max-width: 320px) {
+
+  #coluna-2 {
+    margin-top: 0px;
+    padding: 0;
+  }
+  .container-coluna-2 > article {
+    margin-top: 20px;
+    padding: 0;
+  }
+}
+
+

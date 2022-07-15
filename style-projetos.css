@@ -1,0 +1,203 @@
+
+.fa-solid , .fa-house {
+    margin-right: 5px;
+}
+
+.item-home{
+    margin-left: 50px;
+}
+
+.navbar-end {
+    margin-right: 20px;
+}
+
+.navbar{
+    box-shadow: 2px 2px 13px #2222226a;
+}
+
+.hero-background-color {
+    background-color: #a28a7d;
+}
+
+.container-projeto-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-projeto-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-projeto-3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#iframe-projeto-1{
+    width: 350px;
+    height: 500px;
+    background-color: white;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.iframe-1{
+    width: 363px;
+    height: 500px;
+}
+
+#iframe-projeto-2{
+    width: 335px;
+    height: 500px;
+    background-color: white;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.iframe-2{
+    width: 347px;
+    height: 500px;
+}
+
+#iframe-projeto-3{
+    width: 400px;
+    height: 650px;
+    background-color: white;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.iframe-3{
+    width: 400px;
+    height: 650px;
+}
+
+.quadro-apresentacao-projeto{
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+    height: 250px;
+    background-color: #4A3E38;
+    padding: 20px;
+    margin-top: 150px;
+}
+
+    
+@media (max-width:1024px){
+
+    .quadro-apresentacao-projeto{
+        max-width: 350px;
+        height: 300px;
+    }
+
+}        
+
+
+@media (max-width:790px){
+
+    .container-projeto-1{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap-reverse;
+        column-gap: 31px;
+        margin: 0px 30px 0px 30px;
+    }
+
+    .container-projeto-2{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        column-gap: 31px;
+        margin: 0px 30px 0px 30px;
+    }
+
+    .container-projeto-3{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap-reverse;
+        column-gap: 29px;
+    }
+
+}
+
+
+@media (max-width:425px){
+
+    .item-home{
+        margin-left: 0;
+    }
+
+    .quadro-apresentacao-projeto{
+        margin-top: 40px;
+        height: 360px;
+    }
+
+    .container-projeto-1, .container-projeto-2, .container-projeto-3{
+        justify-content: center;
+    }
+
+    .iframe-1, .iframe-2, .iframe-3{
+        display: none;
+    }
+
+    #iframe-projeto-1{
+        width: 270px;
+        height: 482px ;
+        background-image: url('imagens/pizzaria-pq.png');
+    }
+    
+    #iframe-projeto-2{
+        width: 189px;
+        height: 515px ;
+        background-image: url('imagens/cordel-pq.png');
+    }
+
+    #iframe-projeto-3{
+        width: 262px;
+        height: 486px ;
+        background-image: url('imagens/portifolio-pq.png');
+        margin-bottom: 40px;
+    }
+    
+    #iframe-projeto-1, #iframe-projeto-2, #iframe-projeto-3{
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+}
+
+@media (max-width: 320px){
+
+    .container-projeto-1, .container-projeto-2, .container-projeto-3{
+        gap: 0;
+        margin: 0px;
+    }
+
+    #iframe-projeto-1{
+        width: 252px;
+        height: 450px ;
+        background-image: url('imagens/pizzaria-pq.png');
+    }
+
+    #iframe-projeto-2{
+        width: 165px;
+        height: 450px ;
+        background-image: url('imagens/cordel-pq.png');
+    }
+
+    #iframe-projeto-3{
+        width: 213px;
+        height: 395px ;
+        background-image: url('imagens/portifolio-pq.png');
+        margin-bottom: 40px;
+    }
+
+}
+    
